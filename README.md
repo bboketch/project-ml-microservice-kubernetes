@@ -1,5 +1,4 @@
-[![bboketch](https://circleci.com/gh/bboketch/project-ml-microservice-kubernetes
-.svg?style=svg)](https://circleci.com/gh/bboketch/project-ml-microservice-kubernetes)
+[![bboketch](https://circleci.com/gh/bboketch/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/bboketch/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
