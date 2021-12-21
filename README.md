@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+<[![bboketch](https://circleci.com/gh/bboketch/project-ml-microservice-kubernetes
+.svg?style=svg)](https://app.circleci.com/pipelines/github/bboketch/project-ml-microservice-kubernetes/11/workflows/754657c2-3b66-418d-a417-8ecacc360413/jobs/11?invite=true#step-105-14)>
 
 ## Project Overview
 
