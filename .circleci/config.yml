@@ -27,6 +27,7 @@ jobs:
               make install
               wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.17.6/hadolint-Darwin-x86_64 &&\
               chmod +x /bin/hadolint
+              ./hadolint DockerFile
       - save_cache:
           paths:
             - ./venv
