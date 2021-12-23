@@ -12,8 +12,8 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	pip3 install --no-cache-dir --upgrade pip &&\
-		pip3 install --no-cache-dir -r requirements.txt
+	RUN pip3 install --no-cache-dir --upgrade pip &&\
+		RUN pip3 install --no-cache-dir -r requirements.txt
 		
 test:
 	# Additional, optional, tests could go here
