@@ -14,9 +14,7 @@ install:
 	# This should be run from inside a virtualenv
 	pip3 install --no-cache-dir --upgrade pip &&\
 		pip3 install --no-cache-dir -r requirements.txt
-	wget -O /Users/yogob/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-		chmod +x /Users/yogob/hadolint
-
+		
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
@@ -30,7 +28,7 @@ validate-circleci:
 lint:
 	# See local hadolint install instructions:   https://github.com/hadolint/hadolint
 	# This is linter for Dockerfiles
-	/Users/yogob/hadolint DockerFile
+	./hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
 	pylint --disable=R,C,W1203,app.py
